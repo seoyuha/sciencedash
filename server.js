@@ -14,7 +14,7 @@ const CLASSES = ['1', '2', '3', '4', '5', '6', '7'];
 const UNITS = [1, 2, 3];
 const emptyProg = () => ({ 1: {}, 2: {}, 3: {} });
 const unitOk = u => UNITS.includes(+u);
-const NLV = 15; // 단계 수
+const NLV = 20; // 단계 수
 
 function defaultBank() {
   const html = fs.readFileSync(path.join(PUB, 'index.html'), 'utf8');
